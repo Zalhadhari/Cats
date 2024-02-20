@@ -30,7 +30,8 @@ class Cat {
         origin: json["origin"],
         imageLink: json["image_link"],
         minWeight: json["min_weight"]?.toDouble(),
-        maxWeight: json["max_weight"], name: ''
+        maxWeight: json["max_weight"], 
+        name: json["name"], 
     );
 
     Map<String, dynamic> toJson() => {
